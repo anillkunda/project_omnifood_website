@@ -3,10 +3,11 @@
 /* CSS variables for reusability across all files */
 :root {
   --orange: #e67e22;
-  --dark-orange: #cf711f;
+  --sunset-orange: #eb984e;
   --cream: #fdf2e9;
   --light-peach: #fae5d3;
-  --burnt-orange: #cf711f;
+
+  --dark-orange: #cf711f;
   --deep-brown: #45260a;
 
   --black: #000;
