@@ -1,0 +1,39 @@
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  /* Put transition on original state */
+  transition: background-color 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: var(--orange);
+  color: var(--white);
+
+  margin-right: 1.6rem;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: var(--dark-orange);
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: var(--white);
+  color: var(--gray-2);
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: var(--cream);
+
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 3px var(--white);
+}
