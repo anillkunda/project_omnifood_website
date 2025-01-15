@@ -21,6 +21,9 @@
   --gray-1: #333;
   --gray-2: #555;
   --gray-3: #888;
+
+  --gray-4: #6f6f6f; /* lightest grey allowed on #fff */
+  --gray-5: #767676; /* lightest grey allowed on #fdf2e9 */
 }
 
 * {
