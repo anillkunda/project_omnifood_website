@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* CSS variables for reusability across all files */
+:root {
+  --orange: #e67e22;
+  --sunset-orange: #eb984e;
+  --cream: #fdf2e9;
+  --light-peach: #fae5d3;
+
+  --dark-orange: #cf711f;
+  --deep-brown: #45260a;
+
+  --soft-green: #51cf66;
+  --chartreuse-yellow: #94d82d;
+  --golden-yellow: #ffd43b;
+
+  --black: #000;
+  --white: #fff;
+
+  --light-gray-1: #aaa;
+  --light-gray-2: #ddd;
+  --light-gray-3: #eee;
+
+  --gray-1: #333;
+  --gray-2: #555;
+  --gray-3: #888;
+
+  --gray-4: #6f6f6f; /* lightest grey allowed on #fff */
+  --gray-5: #767676; /* lightest grey allowed on #fdf2e9 */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5 */
+  /* percentage of user's browser font-size setting; */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--gray-2);
+}
