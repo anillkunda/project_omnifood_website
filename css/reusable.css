@@ -72,6 +72,7 @@
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -80,6 +81,11 @@
   text-decoration: none;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+
+  /* only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 
   /* Put transition on original state */
   /* transition: background-color 0.3s; */
@@ -109,6 +115,18 @@
 
   /* Trick to add border inside */
   box-shadow: inset 0 0 0 3px var(--white);
+}
+
+.btn--form {
+  background-color: var(--deep-brown);
+  color: var(--cream);
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: var(--white);
+  color: var(--gray-2);
 }
 
 .link:link,
@@ -146,6 +164,12 @@
   width: 3rem;
   height: 3rem;
   color: var(--orange);
+}
+
+*:focus {
+  outline: none;
+
+  box-shadow: 0 0 0 0.8rem rgba(230, 126, 34, 0.5);
 }
 
 /* --- Helper/Settings Classes --- */
