@@ -18,6 +18,12 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
 
+    <!-- Smoothscroll -->
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
     <!-- Favicon -->
     <link rel="icon" href="public/favicon.png" />
     <link rel="icon" href="public/apple-touch-icon.png" />
@@ -38,14 +44,14 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How it works</a></li>
-          <li><a class="main-nav-link" href="#">Meals</a></li>
+          <li><a class="main-nav-link" href="#how-works">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
           <li>
-            <a class="main-nav-link" href="#">Testimonials</a>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
           </li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
 
-          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
         </ul>
       </nav>
 
@@ -68,10 +74,10 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm"
               >Start eating Well</a
             >
-            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#how-works" class="btn btn--outline">Learn more &darr;</a>
 
             <div class="delivered-meals">
               <div class="delivered-imgs">
@@ -137,7 +143,7 @@
       </section>
 
       <!-- ** How it Works Section -->
-      <section class="section-how-works">
+      <section class="section-how-works" id="how-works">
         <div class="container">
           <span class="subheading">How it Works</span>
           <h2 class="heading-secondary">
@@ -206,7 +212,7 @@
       </section>
 
       <!-- ** Meals Section -->
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container center-text">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">
@@ -334,7 +340,7 @@
       </section>
 
       <!-- ** Testimonials Section -->
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">Once you try it, you can't go back</h2>
@@ -485,7 +491,7 @@
       </section>
 
       <!-- ** Pricing Section -->
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -614,7 +620,7 @@
       </section>
 
       <!-- ** CTA Section -->
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
