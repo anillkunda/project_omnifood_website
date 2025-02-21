@@ -27,6 +27,7 @@
     <!-- Favicon -->
     <link rel="icon" href="public/favicon.png" />
     <link rel="icon" href="public/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
@@ -112,11 +113,16 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <img
-              src="assets/hero-min.png"
-              alt="Woman enjoying food, meals in storage container, and food bowls on table"
-              class="hero-img"
-            />
+            <picture>
+              <source srcset="./assets/hero.webp" type="image/webp" />
+              <source srcset="./assets/hero-min.png" type="image/png" />
+
+              <img
+                src="assets/hero-min.png"
+                alt="Woman enjoying food, meals in storage container, and food bowls on table"
+                class="hero-img"
+              />
+            </picture>
           </div>
         </div>
       </section>
